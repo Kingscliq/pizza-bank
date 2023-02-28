@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Pages\Checkout\" />
+    <None Remove="Pages\Forms\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pages\Checkout\" />
+    <Folder Include="Pages\Forms\" />
+  </ItemGroup>
+</Project>
