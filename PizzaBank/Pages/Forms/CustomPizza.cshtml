@@ -4,4 +4,64 @@
 }
 
 
+<section class="row">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-header">
+                <h2 class="fs-5 fw-bold">Create Pizza</h2>
+            </div>
+
+            <form method="post" class="mt-4 container">
+                <div class="mb-3">
+                    <label for="pizzaName" class="form-label">Pizza Name</label>
+                    <input type="text" asp-for=Pizza.PizzaName class="form-control" id="exampleInputEmail1" aria-describedby="pizzaName">
+                </div>
+                <div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" asp-for=Pizza.TomatoeSauce id="tomatoes">
+                        <label class="form-check-label" for="tomatoes">
+                            TomatoeSauce
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" asp-for=Pizza.Beef value="" id="Beef">
+                        <label class="form-check-label" for="Beef">
+                            Beef
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" asp-for=Pizza.Peperoni value="" id="Peperoni">
+                        <label class="form-check-label" for="Peperoni">
+                            Peperoni
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" asp-for=Pizza.MushRoom value="" id="MushRoom">
+                        <label class="form-check-label" for="MushRoom">
+                            MushRoom
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" asp-for=Pizza.Tuna value="" id="Tuna">
+                        <label class="form-check-label" for="Tuna">
+                            Tuna
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" asp-for=Pizza.Pineapple value="" id="Pineapple">
+                        <label class="form-check-label" for="Pineapple">
+                            Pineapple
+                        </label>
+                    </div>
+                </div>
+                <hr />
+                <button type="submit" class="btn btn-primary">Order!</button>
+            </form>
+        </div>
+    </div>
+
+
+</section>
+
+
 

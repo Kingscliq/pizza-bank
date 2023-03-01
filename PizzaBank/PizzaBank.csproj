@@ -9,9 +9,11 @@
   <ItemGroup>
     <None Remove="Pages\Checkout\" />
     <None Remove="Pages\Forms\" />
+    <None Remove="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\Checkout\" />
     <Folder Include="Pages\Forms\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 </Project>

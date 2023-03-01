@@ -1,4 +1,29 @@
 ﻿<Properties StartupConfiguration="{1022071B-EA6D-4178-914B-BC1374E9D8CD}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PizzaBank/Pages/Pizzas.cshtml">
+    <Files>
+      <File FileName="PizzaBank/Pages/Checkout/Index.cshtml" />
+      <File FileName="PizzaBank/Pages/Checkout/Index.cshtml.cs" />
+      <File FileName="PizzaBank/Pages/Checkout/Thankyou.cshtml" />
+      <File FileName="PizzaBank/Pages/Checkout/Thankyou.cshtml.cs" />
+      <File FileName="PizzaBank/Pages/Index.cshtml" />
+      <File FileName="PizzaBank/Pages/Shared/_Layout.cshtml" />
+      <File FileName="PizzaBank/Pages/Pizzas.cshtml" Line="15" Column="48" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PizzaBank" expanded="True">
+            <Node name="PizzaBank" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.PizzaBank FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.PizzaBank PreferredExecutionTarget="/Applications/Brave Browser.app" />
 </Properties>

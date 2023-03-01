@@ -1,8 +1,83 @@
 ﻿@page
 @model PrivacyModel
 @{
-    ViewData["Title"] = "Pizzas Policy";
+    ViewData["Title"] = "Pizza Bank";
 }
-<h1>@ViewData["Title"]</h1>
 
+<section class="container">
+    <div class="row">
+        <div class="col-6">
+            <img src="~/images/PizzaTime.jpg" alt="Images Show here" />
+        </div>
+        <div class="col-6">
+            <h2 class="display-2">Create Your Own Pizza</h2>
+            <p>Make Your own Pizza with oiur Pizza creator</p>
+            <button class="btn btn-primary">Get Started</button>
+        </div>
+    </div>
 
+    <h3 class="fs-2 fw-bold mt-4 text-center">My Pizzas</h3>
+    <hr/>
+    <div class="row my-5">
+        <div class="col-4 mb-3">
+            <div class="card">
+                <img src="~/images/Bolognese.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Gladius</h5>
+                    <p class="card-text">Spicy and Swweet!</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="~/images/Carbonara.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Mazzito</h5>
+                    <p class="card-text">Spicy and Swweet!</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="~/images/Bolognese.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Magetino</h5>
+                    <p class="card-text">Spicy and Swweet!</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="~/images/MeatFeast.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Secura</h5>
+                    <p class="card-text">Spicy and Swweet!</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="~/images/Mushroom.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Trefold</h5>
+                    <p class="card-text">Spicy and Swweet!</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="~/images/Seafood.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Spalcus</h5>
+                    <p class="card-text">Spicy and Swweet!</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
