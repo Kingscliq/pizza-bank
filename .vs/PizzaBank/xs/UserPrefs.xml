@@ -1,29 +1,43 @@
 ﻿<Properties StartupConfiguration="{1022071B-EA6D-4178-914B-BC1374E9D8CD}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PizzaBank/Pages/Pizzas.cshtml">
+  <MonoDevelop.Ide.ItemProperties.PizzaBank PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PizzaBank/Pages/Forms/CreatePizza.cshtml.cs">
     <Files>
-      <File FileName="PizzaBank/Pages/Checkout/Index.cshtml" />
-      <File FileName="PizzaBank/Pages/Checkout/Index.cshtml.cs" />
-      <File FileName="PizzaBank/Pages/Checkout/Thankyou.cshtml" />
-      <File FileName="PizzaBank/Pages/Checkout/Thankyou.cshtml.cs" />
-      <File FileName="PizzaBank/Pages/Index.cshtml" />
-      <File FileName="PizzaBank/Pages/Shared/_Layout.cshtml" />
-      <File FileName="PizzaBank/Pages/Pizzas.cshtml" Line="15" Column="48" />
+      <File FileName="PizzaBank/Pages/Checkout/Index.cshtml" Line="8" Column="7" />
+      <File FileName="PizzaBank/Models/PizzasModel.cs" Line="12" Column="27" />
+      <File FileName="PizzaBank/Pages/Forms/CustomPizza.cshtml" Line="33" Column="19" />
+      <File FileName="PizzaBank/Pages/Forms/CustomPizza.cshtml.cs" Line="21" Column="1" />
+      <File FileName="PizzaBank/Pages/Checkout/Thankyou.cshtml" Line="7" Column="23" />
+      <File FileName="PizzaBank/Pages/Checkout/Thankyou.cshtml.cs" Line="1" Column="1" />
+      <File FileName="PizzaBank/Pages/Checkout/Index.cshtml.cs" Line="1" Column="1" />
+      <File FileName="PizzaBank/Pages/Shared/_Layout.cshtml" Line="20" Column="54" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PizzaBank" expanded="True">
-            <Node name="PizzaBank" expanded="True" selected="True" />
+            <Node name="PizzaBank" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Forms" expanded="True">
+                  <Node name="CreatePizza.cshtml" expanded="True">
+                    <Node name="CreatePizza.cshtml.cs" selected="True" />
+                  </Node>
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.PizzaBank PreferredExecutionTarget="/Applications/Brave Browser.app" />
 </Properties>

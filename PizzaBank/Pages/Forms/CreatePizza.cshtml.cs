@@ -8,8 +8,10 @@ using PizzaBank.Models;
 
 namespace PizzaBank.Pages.Forms
 {
-    public class IndexModel : PageModel
+    public class CreatePizzaModel : PageModel
     {
+
+        [BindProperty]
         public PizzasModel Pizza { get; set; }
         public float PizzaPrice { get; set; }
      
@@ -28,7 +30,8 @@ namespace PizzaBank.Pages.Forms
             if (Pizza.MushRoom) PizzaPrice += 3;
             if (Pizza.Tuna) PizzaPrice += 1;
 
-            return RedirectToPage("/checkout/index", new {Pizza.PizzaName, PizzaPrice });
+            Console.WriteLine("Redirected");
+            return RedirectToPage("/Checkout/Index", new {Pizza.PizzaName, PizzaPrice });
 
         }
     }

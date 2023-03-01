@@ -28,8 +28,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/crowdforce/Projects/PizzaBank/PizzaBank/Pages/Forms/CustomPizza.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRm9ybXMvQ3VzdG9tUGl6emEuY3NodG1s
+[/Users/crowdforce/Projects/PizzaBank/PizzaBank/Pages/Forms/CreatePizza.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRm9ybXMvQ3JlYXRlUGl6emEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/crowdforce/Projects/PizzaBank/PizzaBank/Pages/Index.cshtml]
